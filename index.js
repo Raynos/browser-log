@@ -15,6 +15,8 @@ function create() {
     log.warn = log.emit.bind(log, "log", "warn")
     log.error = log.emit.bind(log, "log", "error")
 
+    return log
+
     function toConsole() {
         if (log.enabled) {
             console.log.apply(console, arguments)
