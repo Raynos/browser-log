@@ -1,11 +1,11 @@
-# browser-log [![build status][1]][2]
+# browser-log
 
 A dead simple logger for the browser
 
 ## Example
 
 ``` js
-var log = require('browser-log')
+var log = require('browser-log').create()
 // manually enable logging
 log.enabled = true
 
