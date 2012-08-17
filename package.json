@@ -1,6 +1,6 @@
 {
   "name": "browser-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A dead simple logger for the browser",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -16,16 +16,13 @@
     "url": "https://github.com/Raynos/browser-log/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/Raynos/browser-log/raw/master/LICENSE"
     }
   ],
-  "scripts": {
-  }
+  "scripts": {}
 }
